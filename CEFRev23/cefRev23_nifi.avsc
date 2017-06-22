@@ -16,28 +16,52 @@
           },
           {
             "name":"deviceVendor",
-            "type":"string"
+            "type":[
+              "null",
+              "string"
+            ],
+            "default":null
           },
           {
             "name":"deviceProduct",
-            "type":"string"
+            "type":[
+              "null",
+              "string"
+            ],
+            "default":null
           },
           {
             "name":"deviceVersion",
-            "type":"string"
+            "type":[
+              "null",
+              "string"
+            ],
+            "default":null
           },
           {
             "name":"deviceEventClassId",
-            "type":"string",
+            "type":[
+              "null",
+              "string"
+            ],
+            "default":null,
             "doc":"Simplified to String as it may contain int or String"
           },
           {
             "name":"name",
-            "type":"string"
+            "type":[
+              "null",
+              "string"
+            ],
+            "default":null
           },
           {
             "name":"severity",
-            "type":"string",
+            "type":[
+              "null",
+              "string"
+            ],
+            "default":null,
             "doc":"Simplified to String as it may contain Unknown, Low, Medium, High, Very-High or 0 to 10 int"
           }
         ]
@@ -1383,7 +1407,10 @@
     },
     {
       "name":"_raw",
-      "type":"string",
+      "type":[
+        "null",
+        "string"
+      ],
       "default":null,
       "doc":"The raw FlowFile value inserted by NiFi when 'Append raw message to JSON' is set to True"
     }
