@@ -157,8 +157,8 @@
           {
             "name":"cfp1",
             "type":[
-              "float",
-              "null"
+              "null",
+              "float"
             ],
             "default":null
           },
@@ -173,8 +173,8 @@
           {
             "name":"cfp2",
             "type":[
-              "float",
-              "null"
+              "null",
+              "float"
             ],
             "default":null
           },
@@ -189,8 +189,8 @@
           {
             "name":"cfp3",
             "type":[
-              "float",
-              "null"
+              "null",
+              "float"
             ],
             "default":null
           },
@@ -205,8 +205,8 @@
           {
             "name":"cfp4",
             "type":[
-              "float",
-              "null"
+              "null",
+              "float"
             ],
             "default":null
           },
